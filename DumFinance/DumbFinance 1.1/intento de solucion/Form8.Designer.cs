@@ -148,6 +148,7 @@
             this.AtrasFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFlecha.TabIndex = 10;
             this.AtrasFlecha.TabStop = false;
+            this.AtrasFlecha.Click += new System.EventHandler(this.AtrasFlecha_Click);
             // 
             // textBox1
             // 

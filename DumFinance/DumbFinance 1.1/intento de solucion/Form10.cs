@@ -12,9 +12,24 @@ namespace intento_de_solucion
 {
     public partial class RegGastNew : Form
     {
+        private Form2 paginaInicio;
+
         public RegGastNew()
         {
             InitializeComponent();
+        }
+
+        public RegGastNew(Form2 pagInicio)
+        {
+            InitializeComponent();
+            this.paginaInicio = pagInicio;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // ← FLECHA DE REGRESO
+            paginaInicio?.Show();
+            this.Hide();
         }
     }
 }

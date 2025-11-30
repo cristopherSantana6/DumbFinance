@@ -40,5 +40,11 @@ namespace intento_de_solucion
             paginaInicio.Show();
             this.Close();
         }
+
+        private void AtrasFlecha_Click(object sender, EventArgs e)
+        {
+            paginaInicio.Show();
+            this.Close();
+        }
     }
 }

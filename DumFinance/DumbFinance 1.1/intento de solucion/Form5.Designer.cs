@@ -1,6 +1,6 @@
 ﻿namespace intento_de_solucion
 {
-    partial class AñaCuen1
+    partial class AnaCuen1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AñaCuen1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaCuen1));
             this.AñaCuen2 = new System.Windows.Forms.Label();
             this.NomUserNew = new System.Windows.Forms.Label();
             this.UserNew = new System.Windows.Forms.Label();
@@ -186,8 +186,9 @@
             this.AtrasFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFlecha.TabIndex = 14;
             this.AtrasFlecha.TabStop = false;
+            this.AtrasFlecha.Click += new System.EventHandler(this.AtrasFlecha_Click);
             // 
-            // AñaCuen1
+            // AnaCuen1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -208,8 +209,9 @@
             this.Controls.Add(this.NomUserNew);
             this.Controls.Add(this.AñaCuen2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AñaCuen1";
-            this.Text = "Añadir cuenta nueva";
+            this.Name = "AnaCuen1";
+            this.Text = "Agregar cuenta nueva";
+            this.Load += new System.EventHandler(this.AnaCuen1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AtrasFlecha)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

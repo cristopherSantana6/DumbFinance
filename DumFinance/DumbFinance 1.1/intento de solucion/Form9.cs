@@ -12,9 +12,23 @@ namespace intento_de_solucion
 {
     public partial class ReGastoAtra : Form
     {
+        private Form2 paginaInicio;
+
         public ReGastoAtra()
         {
             InitializeComponent();
+        }
+
+        public ReGastoAtra(Form2 pagInicio)
+        {
+            InitializeComponent();
+            this.paginaInicio = pagInicio;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            paginaInicio?.Show();
+            this.Hide();
         }
     }
 }

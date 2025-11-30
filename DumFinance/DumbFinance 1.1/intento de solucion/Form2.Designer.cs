@@ -109,7 +109,7 @@
             this.IniSe.Name = "IniSe";
             this.IniSe.Size = new System.Drawing.Size(149, 38);
             this.IniSe.TabIndex = 0;
-            this.IniSe.Text = "Iniciar de Sección";
+            this.IniSe.Text = "Iniciar Sesión";
             this.IniSe.UseVisualStyleBackColor = false;
             this.IniSe.Click += new System.EventHandler(this.IniSe_Click);
             // 
@@ -177,18 +177,21 @@
             this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Name = resources.GetString(@"dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Name");
             this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
             this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Text = "Registrar un gasto nuevo atrasado";
+            this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Click += new System.EventHandler(this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem_Click);
             // 
             // registrarUnGastoNeuvoToolStripMenuItem
             // 
             this.registrarUnGastoNeuvoToolStripMenuItem.Name = "registrarUnGastoNeuvoToolStripMenuItem";
             this.registrarUnGastoNeuvoToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
             this.registrarUnGastoNeuvoToolStripMenuItem.Text = "Registrar un gasto nuevo";
+            this.registrarUnGastoNeuvoToolStripMenuItem.Click += new System.EventHandler(this.registrarUnGastoNeuvoToolStripMenuItem_Click);
             // 
             // consultarGastosRealizadosToolStripMenuItem
             // 
             this.consultarGastosRealizadosToolStripMenuItem.Name = "consultarGastosRealizadosToolStripMenuItem";
             this.consultarGastosRealizadosToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
             this.consultarGastosRealizadosToolStripMenuItem.Text = "Consultar gastos realizados";
+            this.consultarGastosRealizadosToolStripMenuItem.Click += new System.EventHandler(this.consultarGastosRealizadosToolStripMenuItem_Click);
             // 
             // misiónToolStripMenuItem
             // 
@@ -203,20 +206,23 @@
             // semanalToolStripMenuItem
             // 
             this.semanalToolStripMenuItem.Name = "semanalToolStripMenuItem";
-            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.semanalToolStripMenuItem.Text = "Semanal";
+            this.semanalToolStripMenuItem.Click += new System.EventHandler(this.semanalToolStripMenuItem_Click);
             // 
             // mensualToolStripMenuItem
             // 
             this.mensualToolStripMenuItem.Name = "mensualToolStripMenuItem";
-            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.mensualToolStripMenuItem.Text = "Mensual";
+            this.mensualToolStripMenuItem.Click += new System.EventHandler(this.mensualToolStripMenuItem_Click);
             // 
             // anualToolStripMenuItem
             // 
             this.anualToolStripMenuItem.Name = "anualToolStripMenuItem";
-            this.anualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.anualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.anualToolStripMenuItem.Text = "Anual";
+            this.anualToolStripMenuItem.Click += new System.EventHandler(this.anualToolStripMenuItem_Click);
             // 
             // valoresToolStripMenuItem
             // 
@@ -230,14 +236,16 @@
             // exportarEnExcelToolStripMenuItem
             // 
             this.exportarEnExcelToolStripMenuItem.Name = "exportarEnExcelToolStripMenuItem";
-            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
-            this.exportarEnExcelToolStripMenuItem.Text = "Exportar en excel";
+            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exportarEnExcelToolStripMenuItem.Text = "Exportar en Excel";
+            this.exportarEnExcelToolStripMenuItem.Click += new System.EventHandler(this.exportarEnExcelToolStripMenuItem_Click);
             // 
             // exportarEnPDFToolStripMenuItem
             // 
             this.exportarEnPDFToolStripMenuItem.Name = "exportarEnPDFToolStripMenuItem";
-            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
+            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exportarEnPDFToolStripMenuItem.Text = "Exportar en PDF";
+            this.exportarEnPDFToolStripMenuItem.Click += new System.EventHandler(this.exportarEnPDFToolStripMenuItem_Click);
             // 
             // configuraciónToolStripMenuItem
             // 
@@ -274,7 +282,8 @@
             // 
             this.corroElectronicoToolStripMenuItem.Name = "corroElectronicoToolStripMenuItem";
             this.corroElectronicoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.corroElectronicoToolStripMenuItem.Text = "Corro Electrónico";
+            this.corroElectronicoToolStripMenuItem.Text = "Correo Electrónico";
+            this.corroElectronicoToolStripMenuItem.Click += new System.EventHandler(this.corroElectronicoToolStripMenuItem_Click);
             // 
             // nombreDeUsuarioToolStripMenuItem
             // 
@@ -290,33 +299,39 @@
             // 
             // añadirCuentaNuevaToolStripMenuItem
             // 
+            this.añadirCuentaNuevaToolStripMenuItem.AccessibleName = "AnaCuen1";
             this.añadirCuentaNuevaToolStripMenuItem.Name = "añadirCuentaNuevaToolStripMenuItem";
             this.añadirCuentaNuevaToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
             this.añadirCuentaNuevaToolStripMenuItem.Text = "Añadir cuenta nueva";
+            this.añadirCuentaNuevaToolStripMenuItem.Click += new System.EventHandler(this.añadirCuentaNuevaToolStripMenuItem_Click);
             // 
             // editarContraseñaToolStripMenuItem
             // 
             this.editarContraseñaToolStripMenuItem.Name = "editarContraseñaToolStripMenuItem";
             this.editarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
             this.editarContraseñaToolStripMenuItem.Text = "Editar contraseña";
+            this.editarContraseñaToolStripMenuItem.Click += new System.EventHandler(this.editarContraseñaToolStripMenuItem_Click);
             // 
             // ajustarPresupuestoToolStripMenuItem
             // 
             this.ajustarPresupuestoToolStripMenuItem.Name = "ajustarPresupuestoToolStripMenuItem";
             this.ajustarPresupuestoToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
             this.ajustarPresupuestoToolStripMenuItem.Text = "Ajustar presupuesto";
+            this.ajustarPresupuestoToolStripMenuItem.Click += new System.EventHandler(this.ajustarPresupuestoToolStripMenuItem_Click);
             // 
             // alertasYRecordatoriosToolStripMenuItem
             // 
             this.alertasYRecordatoriosToolStripMenuItem.Name = "alertasYRecordatoriosToolStripMenuItem";
             this.alertasYRecordatoriosToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
             this.alertasYRecordatoriosToolStripMenuItem.Text = "Alertas y recordatorios";
+            this.alertasYRecordatoriosToolStripMenuItem.Click += new System.EventHandler(this.alertasYRecordatoriosToolStripMenuItem_Click);
             // 
             // notificacionesToolStripMenuItem
             // 
             this.notificacionesToolStripMenuItem.Name = "notificacionesToolStripMenuItem";
             this.notificacionesToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
             this.notificacionesToolStripMenuItem.Text = "Notificaciones";
+            this.notificacionesToolStripMenuItem.Click += new System.EventHandler(this.notificacionesToolStripMenuItem_Click);
             // 
             // Visión2
             // 

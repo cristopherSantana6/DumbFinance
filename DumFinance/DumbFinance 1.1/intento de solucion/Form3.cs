@@ -12,9 +12,24 @@ namespace intento_de_solucion
 {
     public partial class PerUser1 : Form
     {
-        public PerUser1()
+        private Form2 paginaInicio;   // Guardar referencia al Form2
+
+        public PerUser1(Form2 pagInicio)
         {
-            InitializeComponent();
+            InitializeComponent();     // Esto SIEMPRE debe ir
+            this.paginaInicio = pagInicio;
+        }
+
+        private void flecha_Click(object sender, EventArgs e)
+        {
+            paginaInicio.Show();  // Volver a Form2
+            this.Hide();          // Ocultar este formulario
+        }
+
+        private void AtrasFlecha_Click(object sender, EventArgs e)
+        {
+            paginaInicio.Show();
+            this.Close();
         }
     }
 }

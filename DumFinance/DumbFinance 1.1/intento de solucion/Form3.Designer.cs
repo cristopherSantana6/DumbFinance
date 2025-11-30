@@ -150,6 +150,7 @@
             // AtrasFlecha
             // 
             this.AtrasFlecha.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.AtrasFlecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AtrasFlecha.Image = ((System.Drawing.Image)(resources.GetObject("AtrasFlecha.Image")));
             this.AtrasFlecha.Location = new System.Drawing.Point(25, 23);
             this.AtrasFlecha.Name = "AtrasFlecha";
@@ -157,6 +158,7 @@
             this.AtrasFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFlecha.TabIndex = 15;
             this.AtrasFlecha.TabStop = false;
+            this.AtrasFlecha.Click += new System.EventHandler(this.AtrasFlecha_Click);
             // 
             // PerUser1
             // 

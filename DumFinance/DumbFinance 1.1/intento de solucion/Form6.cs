@@ -12,9 +12,18 @@ namespace intento_de_solucion
 {
     public partial class EditCont : Form
     {
-        public EditCont()
+        private Form2 paginaInicio;   // ← ESTO FALTABA
+
+        public EditCont(Form2 pagInicio)
         {
             InitializeComponent();
+            this.paginaInicio = pagInicio;
+        }
+
+        private void AtrasFecha_Click(object sender, EventArgs e)
+        {
+            paginaInicio.Show();  // volver a Form2
+            this.Hide();          // ocultar este form (mejor que Close)
         }
     }
 }

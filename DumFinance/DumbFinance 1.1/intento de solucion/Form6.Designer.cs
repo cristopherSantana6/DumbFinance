@@ -135,9 +135,11 @@
             this.AtrasFecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFecha.TabIndex = 9;
             this.AtrasFecha.TabStop = false;
+            this.AtrasFecha.Click += new System.EventHandler(this.AtrasFecha_Click);
             // 
             // EditCont
             // 
+            this.AccessibleName = "Form6";
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);

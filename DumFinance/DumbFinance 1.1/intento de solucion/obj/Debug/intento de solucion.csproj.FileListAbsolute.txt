@@ -51,3 +51,25 @@ C:\Users\monte\Desktop\Work\DumFinance\intento de solucion\intento de solucion\o
 C:\Users\monte\Desktop\Work\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Properties.Resources.resources
 C:\Users\monte\Desktop\Work\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.GenerateResource.cache
 C:\Users\monte\Desktop\Work\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.CoreCompileInputs.cache
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.exe.config
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.exe
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.pdb
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.AssemblyReference.cache
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe.config
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form1.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.RegGastNew.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form2.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.PerUser1.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormReporte.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.EditCont.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AjusPres.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AjustPresu.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.ReGastoAtra.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormLogin.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormRegistro.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Properties.Resources.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.GenerateResource.cache
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.CoreCompileInputs.cache
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.pdb
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AnaCuen1.resources

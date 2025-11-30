@@ -12,9 +12,24 @@ namespace intento_de_solucion
 {
     public partial class AjusPres : Form
     {
+        private Form2 paginaInicio;
+
         public AjusPres()
         {
             InitializeComponent();
         }
+
+        public AjusPres(Form2 pagInicio)
+        {
+            InitializeComponent();
+            this.paginaInicio = pagInicio;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            paginaInicio?.Show();
+            this.Hide();
+        }
     }
 }
+

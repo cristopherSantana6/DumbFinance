@@ -75,5 +75,112 @@ namespace intento_de_solucion
         {
 
         }
+
+        private void editarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditCont login = new EditCont(this);
+            login.Show();
+            this.Hide();
+        }
+
+        private void añadirCuentaNuevaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AnaCuen1 login = new AnaCuen1(this);
+            login.Show();
+            this.Hide();
+        }
+
+        private void dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReGastoAtra regast = new ReGastoAtra(this);
+            regast.Show();
+            this.Hide();
+        }
+
+        private void registrarUnGastoNeuvoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegGastNew newgasto = new RegGastNew(this);
+            newgasto.Show();
+            this.Hide();
+        }
+
+        private void consultarGastosRealizadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void semanalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AjusPres ajuspre = new AjusPres();
+            ajuspre.Show();
+            this.Hide();
+        }
+
+        private void mensualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AjusPres ajuspre = new AjusPres();
+            ajuspre.Show();
+            this.Hide();
+        }
+
+        private void anualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AjusPres ajuspre = new AjusPres();
+            ajuspre.Show();
+            this.Hide();
+        }
+
+        private void exportarEnExcelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReporte reporte = new FormReporte(this);
+            reporte.Show();
+            this.Hide();
+        }
+
+        private void exportarEnPDFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReporte reporte = new FormReporte(this);
+            reporte.Show();
+            this.Hide();
+        }
+
+        private void ajustarPresupuestoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AjustPresu ajuste = new AjustPresu();
+            ajuste.Show();
+            this.Hide();
+        }
+
+        private void alertasYRecordatoriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void corroElectronicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PerUser1 perfil = new PerUser1(this);
+            perfil.Show();
+            this.Hide();
+
+        }
+
+        private void nombreDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PerUser1 perfil = new PerUser1(this);
+            perfil.Show();
+            this.Hide();
+        }
+
+        private void númeroDeTelefonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PerUser1 perfil = new PerUser1(this);
+            perfil.Show();
+            this.Hide();
+        }
     }
 }
