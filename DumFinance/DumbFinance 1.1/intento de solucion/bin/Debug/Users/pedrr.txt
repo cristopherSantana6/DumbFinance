@@ -1,0 +1,6 @@
+Nombre=pedro
+Apellido=pedrosa
+Correo=pedro@pedro.com
+Telefono=12213223
+Usuario=pedrr
+Contrasena=1242121

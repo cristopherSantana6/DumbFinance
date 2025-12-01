@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +37,53 @@ namespace intento_de_solucion
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            string usuario = txtUsuarioLogin.Text;
+            string contra = txtContraLogin.Text;
+
+            if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(contra))
+            {
+                MessageBox.Show("Ingrese usuario y contraseña", "Error en Campos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string usersDir = Path.Combine(Application.StartupPath, "Users");
+            string userFile = Path.Combine(usersDir, $"{usuario}.txt");
+
+            if (!File.Exists(userFile))
+            {
+                MessageBox.Show("Cuenta no encontrada", "Error de Autentizacion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Leer archivo
+            string[] lines = File.ReadAllLines(userFile);
+
+            string usuarioGuardado = "";
+            string contrasenaGuardada = "";
+
+            foreach (string line in lines)
+            {
+                if (line.StartsWith("Usuario="))
+                    usuarioGuardado = line.Replace("Usuario=", "");
+
+                if (line.StartsWith("Contrasena="))
+                    contrasenaGuardada = line.Replace("Contrasena=", "");
+            }
+
+            if (usuario == usuarioGuardado && contra == contrasenaGuardada)
+            {
+                // Inicio correcto
+                FormUser f = new FormUser(usuario);
+                f.Show();
+                this.Close();
+
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error de Autentizacion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        
 
         }
 

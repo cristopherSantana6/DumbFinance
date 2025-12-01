@@ -290,12 +290,14 @@
             this.nombreDeUsuarioToolStripMenuItem.Name = "nombreDeUsuarioToolStripMenuItem";
             this.nombreDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
             this.nombreDeUsuarioToolStripMenuItem.Text = "Nombre de Usuario";
+            this.nombreDeUsuarioToolStripMenuItem.Click += new System.EventHandler(this.nombreDeUsuarioToolStripMenuItem_Click_1);
             // 
             // númeroDeTelefonoToolStripMenuItem
             // 
             this.númeroDeTelefonoToolStripMenuItem.Name = "númeroDeTelefonoToolStripMenuItem";
             this.númeroDeTelefonoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
             this.númeroDeTelefonoToolStripMenuItem.Text = "Número de Telefono";
+            this.númeroDeTelefonoToolStripMenuItem.Click += new System.EventHandler(this.númeroDeTelefonoToolStripMenuItem_Click_1);
             // 
             // añadirCuentaNuevaToolStripMenuItem
             // 

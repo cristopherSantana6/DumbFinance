@@ -37,13 +37,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.Contraseña = new System.Windows.Forms.Label();
             this.ConfContr = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContra = new System.Windows.Forms.TextBox();
+            this.txtConfirmar = new System.Windows.Forms.TextBox();
             this.Siguiente = new System.Windows.Forms.Button();
             this.AtrasFlecha = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.AtrasFlecha)).BeginInit();
@@ -131,61 +131,61 @@
             this.ConfContr.TabIndex = 7;
             this.ConfContr.Text = "Confirmar contraseña:";
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(355, 136);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(329, 22);
-            this.textBox1.TabIndex = 8;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNombre.Location = new System.Drawing.Point(355, 136);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(329, 22);
+            this.txtNombre.TabIndex = 8;
             // 
-            // textBox2
+            // txtApellido
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(355, 179);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(329, 22);
-            this.textBox2.TabIndex = 9;
+            this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtApellido.Location = new System.Drawing.Point(355, 179);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(329, 22);
+            this.txtApellido.TabIndex = 9;
             // 
-            // textBox3
+            // txtCorreo
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(355, 218);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(329, 22);
-            this.textBox3.TabIndex = 10;
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCorreo.Location = new System.Drawing.Point(355, 218);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(329, 22);
+            this.txtCorreo.TabIndex = 10;
             // 
-            // textBox4
+            // txtTelefono
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(355, 252);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(329, 22);
-            this.textBox4.TabIndex = 11;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTelefono.Location = new System.Drawing.Point(355, 252);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(329, 22);
+            this.txtTelefono.TabIndex = 11;
             // 
-            // textBox5
+            // txtUsuario
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(355, 288);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(329, 22);
-            this.textBox5.TabIndex = 12;
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsuario.Location = new System.Drawing.Point(355, 288);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(329, 22);
+            this.txtUsuario.TabIndex = 12;
             // 
-            // textBox6
+            // txtContra
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Location = new System.Drawing.Point(355, 321);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(329, 22);
-            this.textBox6.TabIndex = 13;
+            this.txtContra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtContra.Location = new System.Drawing.Point(355, 321);
+            this.txtContra.Name = "txtContra";
+            this.txtContra.Size = new System.Drawing.Size(329, 22);
+            this.txtContra.TabIndex = 13;
             // 
-            // textBox7
+            // txtConfirmar
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Location = new System.Drawing.Point(355, 358);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(329, 22);
-            this.textBox7.TabIndex = 14;
+            this.txtConfirmar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtConfirmar.Location = new System.Drawing.Point(355, 358);
+            this.txtConfirmar.Name = "txtConfirmar";
+            this.txtConfirmar.Size = new System.Drawing.Size(329, 22);
+            this.txtConfirmar.TabIndex = 14;
             // 
             // Siguiente
             // 
@@ -218,13 +218,13 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.AtrasFlecha);
             this.Controls.Add(this.Siguiente);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtConfirmar);
+            this.Controls.Add(this.txtContra);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtCorreo);
+            this.Controls.Add(this.txtApellido);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.ConfContr);
             this.Controls.Add(this.Contraseña);
             this.Controls.Add(this.label6);
@@ -252,13 +252,13 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label Contraseña;
         private System.Windows.Forms.Label ConfContr;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtContra;
+        private System.Windows.Forms.TextBox txtConfirmar;
         private System.Windows.Forms.Button Siguiente;
         private System.Windows.Forms.PictureBox AtrasFlecha;
     }

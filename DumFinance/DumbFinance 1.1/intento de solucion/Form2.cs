@@ -106,26 +106,28 @@ namespace intento_de_solucion
 
         private void consultarGastosRealizadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form11 consultar = new Form11(this);
+            consultar.Show();
+            this.Hide();
         }
 
         private void semanalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres();
+            AjusPres ajuspre = new AjusPres(this);
             ajuspre.Show();
             this.Hide();
         }
 
         private void mensualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres();
+            AjusPres ajuspre = new AjusPres(this);
             ajuspre.Show();
             this.Hide();
         }
 
         private void anualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres();
+            AjusPres ajuspre = new AjusPres(this);
             ajuspre.Show();
             this.Hide();
         }
@@ -146,7 +148,7 @@ namespace intento_de_solucion
 
         private void ajustarPresupuestoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjustPresu ajuste = new AjustPresu();
+            AjustPresu ajuste = new AjustPresu(this);
             ajuste.Show();
             this.Hide();
         }
@@ -177,6 +179,20 @@ namespace intento_de_solucion
         }
 
         private void númeroDeTelefonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PerUser1 perfil = new PerUser1(this);
+            perfil.Show();
+            this.Hide();
+        }
+
+        private void nombreDeUsuarioToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            PerUser1 perfil = new PerUser1(this);
+            perfil.Show();
+            this.Hide();
+        }
+
+        private void númeroDeTelefonoToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             PerUser1 perfil = new PerUser1(this);
             perfil.Show();
