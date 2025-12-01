@@ -50,41 +50,38 @@
             // 
             this.PerUser2.AutoSize = true;
             this.PerUser2.Font = new System.Drawing.Font("Lucida Bright", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PerUser2.Location = new System.Drawing.Point(352, 46);
+            this.PerUser2.Location = new System.Drawing.Point(313, 37);
             this.PerUser2.Name = "PerUser2";
-            this.PerUser2.Size = new System.Drawing.Size(354, 45);
+            this.PerUser2.Size = new System.Drawing.Size(293, 37);
             this.PerUser2.TabIndex = 0;
             this.PerUser2.Text = "Perfil de usuario";
-            this.PerUser2.Click += new System.EventHandler(this.PerUser2_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Bright", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(393, 378);
+            this.label2.Location = new System.Drawing.Point(349, 302);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 24);
+            this.label2.Size = new System.Drawing.Size(85, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // NomUser
             // 
             this.NomUser.AutoSize = true;
             this.NomUser.Font = new System.Drawing.Font("Lucida Bright", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NomUser.Location = new System.Drawing.Point(520, 312);
+            this.NomUser.Location = new System.Drawing.Point(462, 250);
             this.NomUser.Name = "NomUser";
-            this.NomUser.Size = new System.Drawing.Size(0, 23);
+            this.NomUser.Size = new System.Drawing.Size(0, 20);
             this.NomUser.TabIndex = 3;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(451, 120);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(401, 96);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 154);
+            this.pictureBox1.Size = new System.Drawing.Size(129, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -92,10 +89,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(559, 241);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(497, 193);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -104,9 +100,9 @@
             // 
             this.CorElec1.AutoSize = true;
             this.CorElec1.Font = new System.Drawing.Font("Lucida Bright", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CorElec1.Location = new System.Drawing.Point(286, 438);
+            this.CorElec1.Location = new System.Drawing.Point(254, 350);
             this.CorElec1.Name = "CorElec1";
-            this.CorElec1.Size = new System.Drawing.Size(221, 24);
+            this.CorElec1.Size = new System.Drawing.Size(180, 19);
             this.CorElec1.TabIndex = 7;
             this.CorElec1.Text = "Correo electronico:";
             // 
@@ -114,43 +110,39 @@
             // 
             this.NumTel1.AutoSize = true;
             this.NumTel1.Font = new System.Drawing.Font("Lucida Bright", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumTel1.Location = new System.Drawing.Point(287, 498);
+            this.NumTel1.Location = new System.Drawing.Point(255, 398);
             this.NumTel1.Name = "NumTel1";
-            this.NumTel1.Size = new System.Drawing.Size(220, 24);
+            this.NumTel1.Size = new System.Drawing.Size(179, 19);
             this.NumTel1.TabIndex = 9;
             this.NumTel1.Text = "Número telefónico:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(528, 374);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Location = new System.Drawing.Point(469, 299);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 26);
+            this.textBox1.Size = new System.Drawing.Size(146, 22);
             this.textBox1.TabIndex = 11;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(528, 434);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(469, 347);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(160, 26);
+            this.textBox2.Size = new System.Drawing.Size(143, 22);
             this.textBox2.TabIndex = 12;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(528, 494);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Location = new System.Drawing.Point(469, 395);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(160, 26);
+            this.textBox3.Size = new System.Drawing.Size(143, 22);
             this.textBox3.TabIndex = 13;
             // 
             // EditPerf
             // 
             this.EditPerf.Font = new System.Drawing.Font("Lucida Bright", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditPerf.Location = new System.Drawing.Point(451, 600);
-            this.EditPerf.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EditPerf.Location = new System.Drawing.Point(401, 480);
             this.EditPerf.Name = "EditPerf";
-            this.EditPerf.Size = new System.Drawing.Size(156, 48);
+            this.EditPerf.Size = new System.Drawing.Size(139, 38);
             this.EditPerf.TabIndex = 14;
             this.EditPerf.Text = "Editar perfil";
             this.EditPerf.UseVisualStyleBackColor = true;
@@ -160,10 +152,9 @@
             this.AtrasFlecha.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.AtrasFlecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AtrasFlecha.Image = ((System.Drawing.Image)(resources.GetObject("AtrasFlecha.Image")));
-            this.AtrasFlecha.Location = new System.Drawing.Point(28, 29);
-            this.AtrasFlecha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AtrasFlecha.Location = new System.Drawing.Point(25, 23);
             this.AtrasFlecha.Name = "AtrasFlecha";
-            this.AtrasFlecha.Size = new System.Drawing.Size(40, 45);
+            this.AtrasFlecha.Size = new System.Drawing.Size(36, 36);
             this.AtrasFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFlecha.TabIndex = 15;
             this.AtrasFlecha.TabStop = false;
@@ -171,9 +162,9 @@
             // 
             // PerUser1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1081, 692);
+            this.ClientSize = new System.Drawing.Size(961, 554);
             this.Controls.Add(this.AtrasFlecha);
             this.Controls.Add(this.EditPerf);
             this.Controls.Add(this.textBox3);
@@ -187,10 +178,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PerUser2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PerUser1";
             this.Text = "Perfil de usuario";
-            this.Load += new System.EventHandler(this.PerUser1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AtrasFlecha)).EndInit();

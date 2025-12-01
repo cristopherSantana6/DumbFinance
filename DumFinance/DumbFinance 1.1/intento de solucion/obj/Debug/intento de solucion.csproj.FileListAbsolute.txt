@@ -73,25 +73,7 @@ C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\D
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.pdb
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AnaCuen1.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.exe.config
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.exe
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\bin\Debug\intento de solucion.pdb
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.AssemblyReference.cache
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe.config
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form1.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.RegGastNew.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form2.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.PerUser1.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormReporte.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AnaCuen1.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.EditCont.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AjusPres.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AjustPresu.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.ReGastoAtra.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormLogin.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormRegistro.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Properties.Resources.resources
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.GenerateResource.cache
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.CoreCompileInputs.cache
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe
-C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\Domingo\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.pdb
+C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\t\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\t\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe.config
+C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\t\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.exe
+C:\Users\Dell\Documents\ProgEstr\ProyectoFinal\t\DumbFinance-Alfredo\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento de solucion.pdb

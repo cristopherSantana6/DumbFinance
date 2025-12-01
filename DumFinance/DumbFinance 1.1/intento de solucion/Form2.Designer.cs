@@ -96,6 +96,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -159,7 +160,7 @@
             this.configuraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1364, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1364, 33);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -170,7 +171,7 @@
             this.registrarUnGastoNeuvoToolStripMenuItem,
             this.consultarGastosRealizadosToolStripMenuItem});
             this.visiónToolStripMenuItem.Name = "visiónToolStripMenuItem";
-            this.visiónToolStripMenuItem.Size = new System.Drawing.Size(293, 30);
+            this.visiónToolStripMenuItem.Size = new System.Drawing.Size(293, 29);
             this.visiónToolStripMenuItem.Text = "Registro y seguimiento de gastos";
             // 
             // dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem
@@ -189,6 +190,8 @@
             // 
             // consultarGastosRealizadosToolStripMenuItem
             // 
+            this.consultarGastosRealizadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
             this.consultarGastosRealizadosToolStripMenuItem.Name = "consultarGastosRealizadosToolStripMenuItem";
             this.consultarGastosRealizadosToolStripMenuItem.Size = new System.Drawing.Size(386, 34);
             this.consultarGastosRealizadosToolStripMenuItem.Text = "Consultar gastos realizados";
@@ -523,6 +526,13 @@
             this.label12.Text = "DumbFinance";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem1.Text = "Abrir consulta";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
             // Form2
             // 
             this.ClientSize = new System.Drawing.Size(1364, 729);
@@ -572,5 +582,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
