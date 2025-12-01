@@ -10,28 +10,24 @@ using System.Windows.Forms;
 
 namespace intento_de_solucion
 {
-    public partial class ConsultarGastos : Form
+    public partial class Form11 : Form
     {
-        private Form padre;
+        private Form formularioPadre;
 
-        public ConsultarGastos()
+        public Form11(Form padre)
         {
             InitializeComponent();
+            formularioPadre = padre;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void Form11_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            padre.Show();
+            formularioPadre.Show();
             this.Close();
         }
     }

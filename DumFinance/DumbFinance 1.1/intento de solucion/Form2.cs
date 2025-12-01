@@ -100,14 +100,13 @@ namespace intento_de_solucion
         private void registrarUnGastoNeuvoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RegGastNew newgasto = new RegGastNew(this);
-            newgasto.Show(); 
+            newgasto.Show();
             this.Hide();
         }
 
         private void consultarGastosRealizadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ConsultarGastos ventana = new ConsultarGastos();
-            ventana.Show();
+
         }
 
         private void semanalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -181,6 +180,13 @@ namespace intento_de_solucion
         {
             PerUser1 perfil = new PerUser1(this);
             perfil.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form11 ventana = new Form11(this);
+            ventana.Show();
             this.Hide();
         }
     }

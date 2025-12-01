@@ -52,7 +52,7 @@
             this.PerUser2.Font = new System.Drawing.Font("Lucida Bright", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PerUser2.Location = new System.Drawing.Point(313, 37);
             this.PerUser2.Name = "PerUser2";
-            this.PerUser2.Size = new System.Drawing.Size(293, 37);
+            this.PerUser2.Size = new System.Drawing.Size(301, 39);
             this.PerUser2.TabIndex = 0;
             this.PerUser2.Text = "Perfil de usuario";
             // 
@@ -150,7 +150,6 @@
             // AtrasFlecha
             // 
             this.AtrasFlecha.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AtrasFlecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AtrasFlecha.Image = ((System.Drawing.Image)(resources.GetObject("AtrasFlecha.Image")));
             this.AtrasFlecha.Location = new System.Drawing.Point(25, 23);
             this.AtrasFlecha.Name = "AtrasFlecha";
@@ -158,7 +157,6 @@
             this.AtrasFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AtrasFlecha.TabIndex = 15;
             this.AtrasFlecha.TabStop = false;
-            this.AtrasFlecha.Click += new System.EventHandler(this.AtrasFlecha_Click);
             // 
             // PerUser1
             // 
@@ -177,7 +175,6 @@
             this.Controls.Add(this.NomUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PerUser2);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PerUser1";
             this.Text = "Perfil de usuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
