@@ -143,21 +143,21 @@ namespace intento_de_solucion
 
         private void semanalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres(this);
+            AjustPresu ajuspre = new AjustPresu(this);
             ajuspre.Show();
             this.Hide();
         }
 
         private void mensualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres(this);
+            AjustPresu ajuspre = new AjustPresu(this);
             ajuspre.Show();
             this.Hide();
         }
 
         private void anualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AjusPres ajuspre = new AjusPres(this);
+            AjustPresu ajuspre = new AjustPresu(this);
             ajuspre.Show();
             this.Hide();
         }
@@ -240,7 +240,9 @@ namespace intento_de_solucion
 
         private void consultarProyeccionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form12 proyeccion = new Form12(this);
+            proyeccion.Show();
+            this.Hide();
         }
 
         private void misiónToolStripMenuItem_Click(object sender, EventArgs e)

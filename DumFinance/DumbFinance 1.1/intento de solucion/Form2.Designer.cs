@@ -23,18 +23,7 @@
         private System.Windows.Forms.ToolStripMenuItem anualToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportarEnExcelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportarEnPDFToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem configuraciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem perfilDelUsuarioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajustarPresupuestoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem alertasYRecordatoriosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem notificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrarUnGastoNeuvoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editarPerfilToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem añadirCuentaNuevaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem corroElectronicoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nombreDeUsuarioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem númeroDeTelefonoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editarContraseñaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarGastosRealizadosToolStripMenuItem;
 
         protected override void Dispose(bool disposing)
@@ -65,17 +54,6 @@
             this.valoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarEnExcelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarEnPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.perfilDelUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarPerfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.corroElectronicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nombreDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.númeroDeTelefonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.añadirCuentaNuevaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajustarPresupuestoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alertasYRecordatoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Visión2 = new System.Windows.Forms.Label();
             this.Visión1 = new System.Windows.Forms.Label();
             this.Misión1 = new System.Windows.Forms.Label();
@@ -156,8 +134,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.visiónToolStripMenuItem,
             this.misiónToolStripMenuItem,
-            this.valoresToolStripMenuItem,
-            this.configuraciónToolStripMenuItem});
+            this.valoresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1364, 28);
@@ -250,94 +227,6 @@
             this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.exportarEnPDFToolStripMenuItem.Text = "Exportar en PDF";
             this.exportarEnPDFToolStripMenuItem.Click += new System.EventHandler(this.exportarEnPDFToolStripMenuItem_Click);
-            // 
-            // configuraciónToolStripMenuItem
-            // 
-            this.configuraciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.perfilDelUsuarioToolStripMenuItem,
-            this.ajustarPresupuestoToolStripMenuItem,
-            this.alertasYRecordatoriosToolStripMenuItem,
-            this.notificacionesToolStripMenuItem});
-            this.configuraciónToolStripMenuItem.Name = "configuraciónToolStripMenuItem";
-            this.configuraciónToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
-            this.configuraciónToolStripMenuItem.Text = "Configuración";
-            // 
-            // perfilDelUsuarioToolStripMenuItem
-            // 
-            this.perfilDelUsuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.editarPerfilToolStripMenuItem,
-            this.añadirCuentaNuevaToolStripMenuItem,
-            this.editarContraseñaToolStripMenuItem});
-            this.perfilDelUsuarioToolStripMenuItem.Name = "perfilDelUsuarioToolStripMenuItem";
-            this.perfilDelUsuarioToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.perfilDelUsuarioToolStripMenuItem.Text = "Perfil del usuario";
-            // 
-            // editarPerfilToolStripMenuItem
-            // 
-            this.editarPerfilToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.corroElectronicoToolStripMenuItem,
-            this.nombreDeUsuarioToolStripMenuItem,
-            this.númeroDeTelefonoToolStripMenuItem});
-            this.editarPerfilToolStripMenuItem.Name = "editarPerfilToolStripMenuItem";
-            this.editarPerfilToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
-            this.editarPerfilToolStripMenuItem.Text = "Editar perfil";
-            // 
-            // corroElectronicoToolStripMenuItem
-            // 
-            this.corroElectronicoToolStripMenuItem.Name = "corroElectronicoToolStripMenuItem";
-            this.corroElectronicoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.corroElectronicoToolStripMenuItem.Text = "Correo Electrónico";
-            this.corroElectronicoToolStripMenuItem.Click += new System.EventHandler(this.corroElectronicoToolStripMenuItem_Click);
-            // 
-            // nombreDeUsuarioToolStripMenuItem
-            // 
-            this.nombreDeUsuarioToolStripMenuItem.Name = "nombreDeUsuarioToolStripMenuItem";
-            this.nombreDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.nombreDeUsuarioToolStripMenuItem.Text = "Nombre de Usuario";
-            this.nombreDeUsuarioToolStripMenuItem.Click += new System.EventHandler(this.nombreDeUsuarioToolStripMenuItem_Click_1);
-            // 
-            // númeroDeTelefonoToolStripMenuItem
-            // 
-            this.númeroDeTelefonoToolStripMenuItem.Name = "númeroDeTelefonoToolStripMenuItem";
-            this.númeroDeTelefonoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.númeroDeTelefonoToolStripMenuItem.Text = "Número de Telefono";
-            this.númeroDeTelefonoToolStripMenuItem.Click += new System.EventHandler(this.númeroDeTelefonoToolStripMenuItem_Click_1);
-            // 
-            // añadirCuentaNuevaToolStripMenuItem
-            // 
-            this.añadirCuentaNuevaToolStripMenuItem.AccessibleName = "AnaCuen1";
-            this.añadirCuentaNuevaToolStripMenuItem.Name = "añadirCuentaNuevaToolStripMenuItem";
-            this.añadirCuentaNuevaToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
-            this.añadirCuentaNuevaToolStripMenuItem.Text = "Añadir cuenta nueva";
-            this.añadirCuentaNuevaToolStripMenuItem.Click += new System.EventHandler(this.añadirCuentaNuevaToolStripMenuItem_Click);
-            // 
-            // editarContraseñaToolStripMenuItem
-            // 
-            this.editarContraseñaToolStripMenuItem.Name = "editarContraseñaToolStripMenuItem";
-            this.editarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
-            this.editarContraseñaToolStripMenuItem.Text = "Editar contraseña";
-            this.editarContraseñaToolStripMenuItem.Click += new System.EventHandler(this.editarContraseñaToolStripMenuItem_Click);
-            // 
-            // ajustarPresupuestoToolStripMenuItem
-            // 
-            this.ajustarPresupuestoToolStripMenuItem.Name = "ajustarPresupuestoToolStripMenuItem";
-            this.ajustarPresupuestoToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.ajustarPresupuestoToolStripMenuItem.Text = "Ajustar presupuesto";
-            this.ajustarPresupuestoToolStripMenuItem.Click += new System.EventHandler(this.ajustarPresupuestoToolStripMenuItem_Click);
-            // 
-            // alertasYRecordatoriosToolStripMenuItem
-            // 
-            this.alertasYRecordatoriosToolStripMenuItem.Name = "alertasYRecordatoriosToolStripMenuItem";
-            this.alertasYRecordatoriosToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.alertasYRecordatoriosToolStripMenuItem.Text = "Alertas y recordatorios";
-            this.alertasYRecordatoriosToolStripMenuItem.Click += new System.EventHandler(this.alertasYRecordatoriosToolStripMenuItem_Click);
-            // 
-            // notificacionesToolStripMenuItem
-            // 
-            this.notificacionesToolStripMenuItem.Name = "notificacionesToolStripMenuItem";
-            this.notificacionesToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.notificacionesToolStripMenuItem.Text = "Notificaciones";
-            this.notificacionesToolStripMenuItem.Click += new System.EventHandler(this.notificacionesToolStripMenuItem_Click);
             // 
             // Visión2
             // 

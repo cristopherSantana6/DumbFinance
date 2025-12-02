@@ -75,3 +75,4 @@ C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\D
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.AnaCuen1.resources
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.FormUser.resources
 C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form11.resources
+C:\Users\monte\Desktop\Work\DumFinance\DumbFinance 1.1\intento de solucion\obj\Debug\intento_de_solucion.Form12.resources

@@ -16,3 +16,9 @@ Fecha=12/02
 Moneda=Córdobas
 Categoria=Reparaciones
 
+[Proyeccion]
+Actual=120
+Nuevo=523
+Tipo=Anual
+Moneda=Dólares
+
