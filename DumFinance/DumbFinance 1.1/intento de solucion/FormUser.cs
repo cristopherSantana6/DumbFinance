@@ -5,16 +5,15 @@ namespace intento_de_solucion
 {
     public partial class FormUser : Form
     {
-        private Form2 paginaInicio;   // ← Guardar referencia a Form2
-
+        private Form2 paginaInicio;
         string usuarioActual;
 
-        public FormUser(string usuario)
+        public FormUser(Form2 pagInicio, string usuario)
         {
             InitializeComponent();
-            usuarioActual = usuario;
+            this.paginaInicio = pagInicio;
+            this.usuarioActual = usuario;
         }
-
 
         public FormUser(Form2 pagInicio)
         {

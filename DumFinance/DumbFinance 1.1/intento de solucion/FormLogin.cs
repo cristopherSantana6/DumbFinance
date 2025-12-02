@@ -74,17 +74,17 @@ namespace intento_de_solucion
             if (usuario == usuarioGuardado && contra == contrasenaGuardada)
             {
                 // Inicio correcto
-                FormUser f = new FormUser(usuario);
+                UserSession.IsLogged = true;
+                UserSession.Username = usuario;
+
+                FormUser f = new FormUser(paginaInicio, usuario);
                 f.Show();
                 this.Close();
-
             }
             else
             {
                 MessageBox.Show("Usuario o contraseña incorrectos", "Error de Autentizacion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        
-
         }
 
         private void atras_Click(object sender, EventArgs e)

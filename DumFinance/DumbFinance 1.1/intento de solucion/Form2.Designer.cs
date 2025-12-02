@@ -96,6 +96,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.cerrarsesion = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -206,21 +207,21 @@
             // semanalToolStripMenuItem
             // 
             this.semanalToolStripMenuItem.Name = "semanalToolStripMenuItem";
-            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.semanalToolStripMenuItem.Text = "Semanal";
             this.semanalToolStripMenuItem.Click += new System.EventHandler(this.semanalToolStripMenuItem_Click);
             // 
             // mensualToolStripMenuItem
             // 
             this.mensualToolStripMenuItem.Name = "mensualToolStripMenuItem";
-            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.mensualToolStripMenuItem.Text = "Mensual";
             this.mensualToolStripMenuItem.Click += new System.EventHandler(this.mensualToolStripMenuItem_Click);
             // 
             // anualToolStripMenuItem
             // 
             this.anualToolStripMenuItem.Name = "anualToolStripMenuItem";
-            this.anualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.anualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.anualToolStripMenuItem.Text = "Anual";
             this.anualToolStripMenuItem.Click += new System.EventHandler(this.anualToolStripMenuItem_Click);
             // 
@@ -236,14 +237,14 @@
             // exportarEnExcelToolStripMenuItem
             // 
             this.exportarEnExcelToolStripMenuItem.Name = "exportarEnExcelToolStripMenuItem";
-            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.exportarEnExcelToolStripMenuItem.Text = "Exportar en Excel";
             this.exportarEnExcelToolStripMenuItem.Click += new System.EventHandler(this.exportarEnExcelToolStripMenuItem_Click);
             // 
             // exportarEnPDFToolStripMenuItem
             // 
             this.exportarEnPDFToolStripMenuItem.Name = "exportarEnPDFToolStripMenuItem";
-            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.exportarEnPDFToolStripMenuItem.Text = "Exportar en PDF";
             this.exportarEnPDFToolStripMenuItem.Click += new System.EventHandler(this.exportarEnPDFToolStripMenuItem_Click);
             // 
@@ -524,9 +525,23 @@
             this.label12.Text = "DumbFinance";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
+            // cerrarsesion
+            // 
+            this.cerrarsesion.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cerrarsesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cerrarsesion.Location = new System.Drawing.Point(896, 46);
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(146, 38);
+            this.cerrarsesion.TabIndex = 19;
+            this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.UseVisualStyleBackColor = false;
+            this.cerrarsesion.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.ClientSize = new System.Drawing.Size(1364, 729);
+            this.Controls.Add(this.cerrarsesion);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
@@ -573,5 +588,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button cerrarsesion;
     }
 }

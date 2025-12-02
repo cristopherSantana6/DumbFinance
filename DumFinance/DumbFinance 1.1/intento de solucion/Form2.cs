@@ -5,6 +5,7 @@ namespace intento_de_solucion
 {
     public partial class Form2 : Form
     {
+
         public Form2()
         {
             InitializeComponent();
@@ -22,7 +23,36 @@ namespace intento_de_solucion
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // Código a ejecutar al cargar el formulario
+            if (!UserSession.IsLogged)
+            {
+                // 🔒 Estado sin sesión
+
+                menuStrip1.Enabled = false;
+
+                IniSe.Enabled = true;
+                IniSe.Visible = true;
+
+                RegUsu.Enabled = true;
+                RegUsu.Visible = true;
+
+                cerrarsesion.Visible = false;
+                cerrarsesion.Enabled = false;
+            }
+            else
+            {
+                // 🔓 Estado con sesión activa
+
+                menuStrip1.Enabled = true;
+
+                IniSe.Enabled = false;
+                IniSe.Visible = false;
+
+                RegUsu.Enabled = false;
+                RegUsu.Visible = false;
+
+                cerrarsesion.Visible = true;
+                cerrarsesion.Enabled = true;
+            }
         }
 
         private void IniSe_Click(object sender, EventArgs e)
@@ -198,5 +228,16 @@ namespace intento_de_solucion
             perfil.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UserSession.Logout();
+
+            Form2 f = new Form2();
+            f.Show();
+            this.Close();
+        }
+
+
     }
 }

@@ -1,0 +1,6 @@
+Nombre=Nestor
+Apellido=Turcios
+Correo=si@si.si
+Telefono=12345678
+Usuario=mortero3d
+Contrasena=3d
