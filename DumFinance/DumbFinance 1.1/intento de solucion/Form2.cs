@@ -57,19 +57,19 @@ namespace intento_de_solucion
 
         private void IniSe_Click(object sender, EventArgs e)
         {
-            FormLogin login = new FormLogin(this); 
+            FormLogin login = new FormLogin();
             login.Show();
             this.Hide();
-
         }
+
 
         private void RegUsu_Click(object sender, EventArgs e)
         {
-            FormRegistro login = new FormRegistro(this);
-            login.Show();
+            FormRegistro reg = new FormRegistro();
+            reg.Show();
             this.Hide();
-
         }
+
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -229,7 +229,7 @@ namespace intento_de_solucion
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // botón Cerrar sesión
         {
             UserSession.Logout();
 

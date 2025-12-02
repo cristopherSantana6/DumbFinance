@@ -1,49 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace intento_de_solucion
 {
-   public partial class FormLogin : Form
-{
-    private Form2 paginaInicio;  // referencia al formulario inicial
-
-    public FormLogin(Form2 pagInicio)
+    public partial class FormLogin : Form
     {
-        InitializeComponent();
-        this.paginaInicio = pagInicio;
-    }
+        public FormLogin()
+        {
+            InitializeComponent();
+        }
+
         private void FormLogin_Load(object sender, EventArgs e)
         {
-
+            // Vacío, solo para que el diseñador esté contento
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            // No hace nada (puedes dejarlo vacío)
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            // No hace nada
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             string usuario = txtUsuarioLogin.Text;
             string contra = txtContraLogin.Text;
 
             if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(contra))
             {
-                MessageBox.Show("Ingrese usuario y contraseña", "Error en Campos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Ingrese usuario y contraseña", "Error en campos",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -52,11 +43,11 @@ namespace intento_de_solucion
 
             if (!File.Exists(userFile))
             {
-                MessageBox.Show("Cuenta no encontrada", "Error de Autentizacion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Cuenta no encontrada", "Error de autenticación",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Leer archivo
             string[] lines = File.ReadAllLines(userFile);
 
             string usuarioGuardado = "";
@@ -73,24 +64,25 @@ namespace intento_de_solucion
 
             if (usuario == usuarioGuardado && contra == contrasenaGuardada)
             {
-                // Inicio correcto
                 UserSession.IsLogged = true;
                 UserSession.Username = usuario;
 
-                FormUser f = new FormUser(paginaInicio, usuario);
+                FormUser f = new FormUser(usuario);
                 f.Show();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error de Autentizacion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error de autenticación",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void atras_Click(object sender, EventArgs e)
         {
-            paginaInicio.Show(); 
-            this.Close();         
+            Form2 f = new Form2();
+            f.Show();
+            this.Close();
         }
     }
 }

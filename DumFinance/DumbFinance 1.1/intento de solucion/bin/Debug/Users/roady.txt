@@ -1,0 +1,6 @@
+Nombre=Alfredo
+Apellido=Montealegre
+Correo=a@a
+Telefono=1241
+Usuario=roady
+Contrasena=12

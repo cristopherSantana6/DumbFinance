@@ -13,22 +13,19 @@ namespace intento_de_solucion
 {
     public partial class FormRegistro : Form
     {
-        private Form2 paginaInicio;  // referencia al formulario inicial
-
-        public FormRegistro(Form2 pagInicio)
+        public FormRegistro()
         {
             InitializeComponent();
-            this.paginaInicio = pagInicio;
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            // vacío
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            // vacío
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,21 +39,24 @@ namespace intento_de_solucion
                 string.IsNullOrWhiteSpace(txtContra.Text) ||
                 string.IsNullOrWhiteSpace(txtConfirmar.Text))
             {
-                MessageBox.Show("Rellene todos los campos primero", "Aun no has terminado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Rellene todos los campos primero", "Campos incompletos",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             // Validar que teléfono sean solo números
             if (!int.TryParse(txtTelefono.Text, out _))
             {
-                MessageBox.Show("En Telefono no se aceptan otra cosa más que números", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("En Teléfono solo se aceptan números", "Error en teléfono",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             // Validar coincidencia de contraseñas
             if (txtContra.Text != txtConfirmar.Text)
             {
-                MessageBox.Show("Las contraseñas no coinciden", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Las contraseñas no coinciden", "Error en contraseña",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -71,7 +71,8 @@ namespace intento_de_solucion
             // Verificar si ya existe un usuario con ese nombre
             if (File.Exists(userFile))
             {
-                MessageBox.Show("Este usuario ya existe, elija otro nombre de usuario.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Este usuario ya existe, elija otro nombre de usuario.",
+                    "Usuario duplicado", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -86,7 +87,8 @@ namespace intento_de_solucion
                 sw.WriteLine($"Contrasena={txtContra.Text}");
             }
 
-            MessageBox.Show("Cuenta creada exitosamente", "Enhorabuena", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Cuenta creada exitosamente", "Enhorabuena",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Regresar al Form2
             Form2 f = new Form2();
@@ -94,17 +96,19 @@ namespace intento_de_solucion
             this.Close();
         }
 
-        
-
         private void button2_Click(object sender, EventArgs e)
         {
-            paginaInicio.Show();
+            // Botón Atrás (el de abajo)
+            Form2 f = new Form2();
+            f.Show();
             this.Close();
         }
 
         private void AtrasFlecha_Click(object sender, EventArgs e)
         {
-            paginaInicio.Show();
+            // Flecha de atrás (si es otra)
+            Form2 f = new Form2();
+            f.Show();
             this.Close();
         }
     }

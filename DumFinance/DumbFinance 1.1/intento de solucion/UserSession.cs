@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-public static class UserSession
+namespace intento_de_solucion
 {
-    public static bool IsLogged { get; set; } = false;
-    public static string Username { get; set; } = "";
-
-    public static void Logout()
+    public static class UserSession
     {
-        IsLogged = false;
-        Username = "";
+        public static bool IsLogged { get; set; } = false;
+        public static string Username { get; set; } = "";
+
+        public static void Logout()
+        {
+            IsLogged = false;
+            Username = "";
+        }
     }
 }

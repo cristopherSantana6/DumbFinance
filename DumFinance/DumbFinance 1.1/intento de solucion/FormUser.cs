@@ -5,41 +5,35 @@ namespace intento_de_solucion
 {
     public partial class FormUser : Form
     {
-        private Form2 paginaInicio;
         string usuarioActual;
 
-        public FormUser(Form2 pagInicio, string usuario)
+        public FormUser(string usuario)
         {
             InitializeComponent();
-            this.paginaInicio = pagInicio;
-            this.usuarioActual = usuario;
-        }
-
-        public FormUser(Form2 pagInicio)
-        {
-            InitializeComponent();
-            this.paginaInicio = pagInicio;
+            usuarioActual = usuario;
         }
 
         private void FormUser_Load(object sender, EventArgs e)
         {
-
+            // Si tienes un label con el nombre de usuario, podrías hacer:
+            // username.Text = usuarioActual;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            // vacío
         }
 
         private void username_Click(object sender, EventArgs e)
         {
-
+            // vacío
         }
 
         private void AtrasFecha_Click(object sender, EventArgs e)
         {
-            paginaInicio?.Show();  // Regresar al Form2
-            this.Hide();           // Ocultar este formulario
+            Form2 f = new Form2();
+            f.Show();
+            this.Close();
         }
     }
 }
