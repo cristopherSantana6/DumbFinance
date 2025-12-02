@@ -238,6 +238,14 @@ namespace intento_de_solucion
             this.Close();
         }
 
+        private void consultarProyeccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void misiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

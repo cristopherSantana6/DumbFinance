@@ -93,10 +93,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.cerrarsesion = new System.Windows.Forms.Button();
+            this.consultarProyeccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -199,29 +200,31 @@
             this.misiónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.semanalToolStripMenuItem,
             this.mensualToolStripMenuItem,
-            this.anualToolStripMenuItem});
+            this.anualToolStripMenuItem,
+            this.consultarProyeccionesToolStripMenuItem});
             this.misiónToolStripMenuItem.Name = "misiónToolStripMenuItem";
             this.misiónToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
             this.misiónToolStripMenuItem.Text = "Proyección de gastos";
+            this.misiónToolStripMenuItem.Click += new System.EventHandler(this.misiónToolStripMenuItem_Click);
             // 
             // semanalToolStripMenuItem
             // 
             this.semanalToolStripMenuItem.Name = "semanalToolStripMenuItem";
-            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
             this.semanalToolStripMenuItem.Text = "Semanal";
             this.semanalToolStripMenuItem.Click += new System.EventHandler(this.semanalToolStripMenuItem_Click);
             // 
             // mensualToolStripMenuItem
             // 
             this.mensualToolStripMenuItem.Name = "mensualToolStripMenuItem";
-            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
             this.mensualToolStripMenuItem.Text = "Mensual";
             this.mensualToolStripMenuItem.Click += new System.EventHandler(this.mensualToolStripMenuItem_Click);
             // 
             // anualToolStripMenuItem
             // 
             this.anualToolStripMenuItem.Name = "anualToolStripMenuItem";
-            this.anualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.anualToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
             this.anualToolStripMenuItem.Text = "Anual";
             this.anualToolStripMenuItem.Click += new System.EventHandler(this.anualToolStripMenuItem_Click);
             // 
@@ -496,15 +499,6 @@
     "fomentamos la confianza con resultados precisos y herramientas de mejora financi" +
     "era.";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(43, 462);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1219, 207);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.Location = new System.Drawing.Point(43, 135);
@@ -537,6 +531,22 @@
             this.cerrarsesion.Text = "Cerrar Sesion";
             this.cerrarsesion.UseVisualStyleBackColor = false;
             this.cerrarsesion.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // consultarProyeccionesToolStripMenuItem
+            // 
+            this.consultarProyeccionesToolStripMenuItem.Name = "consultarProyeccionesToolStripMenuItem";
+            this.consultarProyeccionesToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
+            this.consultarProyeccionesToolStripMenuItem.Text = "Consultar Proyecciones";
+            this.consultarProyeccionesToolStripMenuItem.Click += new System.EventHandler(this.consultarProyeccionesToolStripMenuItem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(43, 462);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1219, 207);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // Form2
             // 
@@ -589,5 +599,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button cerrarsesion;
+        private System.Windows.Forms.ToolStripMenuItem consultarProyeccionesToolStripMenuItem;
     }
 }
