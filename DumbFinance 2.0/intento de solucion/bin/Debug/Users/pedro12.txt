@@ -1,0 +1,6 @@
+Nombre=pedrp
+Apellido=samch
+Correo=pedrp@gmail.com
+Telefono=23431231
+Usuario=pedro12
+Contrasena=12345678

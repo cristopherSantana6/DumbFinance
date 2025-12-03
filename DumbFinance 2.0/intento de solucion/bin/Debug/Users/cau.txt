@@ -1,0 +1,12 @@
+Nombre=Carlos 
+Apellido=Urbina
+Correo=cabhjefbkh@gmail.com
+Telefono=85896427
+Usuario=cau
+Contrasena=123456789
+[Gasto]
+Monto=987654
+Fecha=2345678
+Moneda=Dólares
+Categoria=Reparaciones
+

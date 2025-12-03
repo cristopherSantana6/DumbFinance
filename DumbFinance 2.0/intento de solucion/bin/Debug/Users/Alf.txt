@@ -1,0 +1,6 @@
+Nombre=Alfredo
+Apellido=Montealegre
+Correo=roady@gmail.com
+Telefono=12345678
+Usuario=Alf
+Contrasena=123

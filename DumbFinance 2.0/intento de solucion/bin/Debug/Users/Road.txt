@@ -1,0 +1,6 @@
+Nombre=Alfredo
+Apellido=Montealegre
+Correo=alfmontealegre@uamv.edu.ni
+Telefono=78231160
+Usuario=Road
+Contrasena=123456

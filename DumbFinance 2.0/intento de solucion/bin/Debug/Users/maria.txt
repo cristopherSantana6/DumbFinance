@@ -1,0 +1,6 @@
+Nombre=jose
+Apellido=maria
+Correo=nose@nose
+Telefono=1241215
+Usuario=maria
+Contrasena=123
