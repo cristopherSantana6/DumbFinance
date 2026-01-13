@@ -1,0 +1,27 @@
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.AssemblyReference.cache
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Properties.Resources.resources
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.GenerateResource.cache
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\bin\Debug\intento de solucion.exe.config
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\bin\Debug\intento de solucion.exe
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\bin\Debug\intento de solucion.pdb
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Form2.resources
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.exe
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.pdb
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento de solucion.exe.config
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.FormLogin.resources
+C:\Users\crist\OneDrive\Desktop\mm\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.FormRegistro.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\bin\Debug\intento de solucion.exe.config
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\bin\Debug\intento de solucion.exe
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\bin\Debug\intento de solucion.pdb
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.AssemblyReference.cache
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.exe.config
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Form1.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Form2.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.FormLogin.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.FormRegistro.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento_de_solucion.Properties.Resources.resources
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.GenerateResource.cache
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.csproj.CoreCompileInputs.cache
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.exe
+C:\Users\zeled\source\repos\cristopherSantana6\DumFinance\intento de solucion\intento de solucion\obj\Debug\intento de solucion.pdb
